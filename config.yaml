@@ -136,8 +136,8 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am a software developer with a passion for backend development and DevOps. I have a background in Electrical and computer engineering and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [Itemis AG](https://www.itemis.com/) in Leipzig, DE. 
-      I am currently working on a project that will be used to help managers and HR to plan their projects and manage their employees. 
+      I am a software developer with a passion for backend development and DevOps. I have a background in Electrical and computer engineering and mathematics, and I have a strong interest in the intersection of Computer Science and Electrical Engineering. I am currently working as a software developer at [Itemis AG](https://www.itemis.com/) in Leipzig, DE. 
+      I am currently working on a project that will be used to help managers, HR and employees alike by providing a platform for project managment and time tracking. 
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
@@ -149,8 +149,8 @@ params:
         - "Python"
         - "Jenkins"
         - "AWS"
-        - "Linux (Ubuntu / CentOS)"
-
+        - "Linux (Ubuntu)"
+        - "Docker"
   # Experience
   experience:
     enable: true
@@ -164,8 +164,11 @@ params:
           enable: false
           name: "View the project"
           url: "https://example.com"
-        content: "I am currently working on a project that will be used to help managers and HR to plan their projects and manage their employees."
+        content:
+          I am currently working on a project that will be used to help managers and HR plan and manage projects.  
 
+          - Java, Jave Enterprise, Spring, Javascript (Typescript), Docker, Jenkins
+        
       - job: "Software Developer (SHK)"
         company: "Dresden university of applied sciences"
         companyUrl: "https://www.htw-dresden.de/"
@@ -176,8 +179,10 @@ params:
         info:
           enable: false 
           content: I worked as a software developer for more than one year in Amazon.
-        content: |
-          - Developed a natively compiled, multi-platform application to calculate the thermal and mechanical stress on industrial Busbars 
+        content: 
+          Developed a natively compiled, multi-platform [application](https://play.google.com/store/apps/details?id=com.ralfdieterrogler.busbars&gl=DE) to calculate the thermal and mechanical stress on industrial Busbars
+
+          - Flutter, Dart, Numerical methods, Report generation
   # Education
   education:
     enable: true
@@ -220,50 +225,47 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
-        image: /images/projects/profile.png
+      - title: Multi-platform application for calculating themal and mechanical stress on Busbars 
+        content: The software calculates the temperatures of busbars depending on their geometry, their material and their surface with and without housing depending on the current and its frequency.
+        image: /images/buspars-app.png
         featured:
-          name: Demo
-          link: https://hugo-profile.netlify.app
+          name: App
+          link: https://play.google.com/store/apps/details?id=com.ralfdieterrogler.busbars&gl=DE
         # badges:
         #   - "Hugo"
         #   - "Bootstrap"
         #   - "Javascript"
         links:
-          - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          - icon: fab fa-google-play
+            url: https://play.google.com/store/apps/details?id=com.ralfdieterrogler.busbars&gl=DE
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
-          - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
 
-      - title: Image Converter
-        content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
-        image: /images/projects/converter.jpg
+      - title: 7-Segment display reader 
+        content: A Matlab app with a graphical user interface to extract the numbers displayed on 7-segment-display using digital image processing techniques and morphological operations. 
+        image: /images/dbv.png
         featured:
-          name: Demo
-          link: https://django-converter.herokuapp.com
+          name: Demo 
+          link: https://github.com/adel-habib/DBV-Computerprojekt
         # badges:
         #   - "Django"
         #   - "Bootstrap"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/converter
+            url: https://github.com/adel-habib/DBV-Computerprojekt
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
-        image: /images/projects/profile2.jpg
-        featured:
-          name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+      - title: Speautify
+        content: A restful api for Parsing and visualising Ltspice simulation raw data (binaries). Users can upload the raw data, that data is parsed. Users can download the parsed data as csv file or choose to plot them.
+        image: /images/spapi.png
+        #featured:
+        #  name: Demo V2
+        #  link: https://hugo-profile-2.netlify.app
         # badges:
         #   - "Hugo"
         #   - "Bootstrap"
         #   - "Javascript"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/adel-habib/speautify-api
 
   #Contact
   contact:
