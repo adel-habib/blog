@@ -1,4 +1,4 @@
-baseURL: http://localhost:1313/
+baseURL: https://blog.ahabib.me/
 languageCode: en-us
 title: "Blog"
 theme: hugo-profile
@@ -177,9 +177,7 @@ params:
           enable: false 
           content: I worked as a software developer for more than one year in Amazon.
         content: |
-          I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA. I am currently working on a project that will be used to help people find the best way to get around the city.
-          - Lead backend developer for a product.
-          - Created a frontend design for a product.
+          - Developed a natively compiled, multi-platform application to calculate the thermal and mechanical stress on industrial Busbars 
   # Education
   education:
     enable: true
@@ -192,9 +190,11 @@ params:
           url: "https://www.htw-dresden.de/"
         date: "2018 - present"
         content: |-
-          Extracurricular Activities
-            - Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            - Tempora esse, eaque delectus nulla quo doloribus itaque expedita alias natus optio totam maxime nihil excepturi velit a animi laborum hic similique.
+          with focus on
+            - Digital systems
+            - System design
+            - Digital image processing
+            - Numerical methods 
 
   # Achievements
   achievements:
