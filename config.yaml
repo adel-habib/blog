@@ -278,9 +278,9 @@ params:
   footer:
     # recentPosts: false
     socialNetworks:
-      github: https://github.com
+      github: https://github.com/adel-habib
       linkedin: https://linkedin.com
-      twitter: https://twitter.com
-      instagram: https://instagram.com
-      facebook: https://facebook.com
+      #twitter: https://twitter.com
+      #instagram: https://instagram.com
+      #facebook: https://facebook.com
   
