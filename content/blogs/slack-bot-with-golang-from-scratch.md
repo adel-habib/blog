@@ -1,7 +1,7 @@
 ---
 title: "Develop a Slack-bot using Golang - Part 1"
 date: 2022-11-13T19:51:39+01:00
-draft: true
+draft: false
 author: "Ahmed"
 tags:
   - Markdown syntax
